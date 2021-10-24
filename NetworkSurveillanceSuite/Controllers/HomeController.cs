@@ -22,7 +22,7 @@ namespace NetworkSurveillanceSuite.Controllers
         }
 
         public async Task<IActionResult> Index()
-        {
+        { 
 
             int val= await _loginService.GetTestData();
             return View();
