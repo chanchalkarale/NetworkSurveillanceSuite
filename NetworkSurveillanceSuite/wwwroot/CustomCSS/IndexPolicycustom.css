@@ -1,0 +1,113 @@
+﻿.modal-confirm {
+    color: #636363;
+    width: 400px;
+}
+
+    .modal-confirm .modal-content {
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .modal-confirm .modal-header {
+        border-bottom: none;
+        position: relative;
+    }
+
+    .modal-confirm h4 {
+        text-align: center;
+        font-size: 26px;
+        margin: 30px 0 -10px;
+    }
+
+    .modal-confirm .close {
+        position: absolute;
+        top: -5px;
+        right: -2px;
+    }
+
+    .modal-confirm .modal-body {
+        color: #999;
+    }
+
+    .modal-confirm .modal-footer {
+        border: none;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 13px;
+        padding: 10px 15px 25px;
+    }
+
+        .modal-confirm .modal-footer a {
+            color: #999;
+        }
+
+    .modal-confirm .icon-box {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+        border-radius: 50%;
+        z-index: 9;
+        text-align: center;
+        border: 3px solid #f15e5e;
+    }
+
+        .modal-confirm .icon-box i {
+            color: #f15e5e;
+            font-size: 46px;
+            display: inline-block;
+            margin-top: 13px;
+        }
+
+.ui-pnotify {
+    right: 1.5%;
+    top: 90%;
+}
+
+.ui-pnotify-text {
+    display: inline !important;
+}
+/* Important part */
+.modal-dialog {
+    overflow-y: initial !important
+}
+
+.modal-policy {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+
+div.dataTables_wrapper div.dataTables_processing {
+    top: 85% !important;
+    left: 50% !important;
+    width: 0% !important;
+    border-color: white !important;
+    margin-left: -100px !important;
+    margin-top: -30px !important;
+    text-align: center;
+    padding: 0em 0 !important;
+    position: absolute !important;
+}

@@ -1,0 +1,82 @@
+﻿.listh1select {
+    margin-left: 34%;
+    font-size: 200%;
+}
+
+.scanTimeMargin {
+    margin-left: -16% !important;
+}
+
+.marginBackUp {
+    margin-left: 8px;
+}
+
+.backupLabel {
+    margin-top: 1.1%;
+}
+
+.backupCheck {
+    margin-top: 1.2%;
+}
+
+.addMargin {
+    margin-left: 0.5%;
+    width: 70px;
+    font-size: 13px !important;
+}
+
+.right_col {
+    min-height: 735.111px !important;
+}
+
+.listbtnselect {
+    width: 52%;
+    margin-left: 25%;
+}
+
+.filePathlist {
+    overflow-x: scroll;
+}
+
+/*.btnDelete {
+        margin-top: 3%;
+        float: right;
+        font-size: 13px;
+    }*/
+
+.btnDeleteAll {
+    margin-top: 3%;
+    float: right;
+    font-size: 13px;
+}
+
+.scrolldiv {
+    border: #c0c0c0 solid 1px;
+    display: inline-block;
+    overflow-y: scroll;
+    width: 30%;
+    font-family: arial, helvetica, sans serif;
+    font-size: .725em;
+    position: relative;
+    height: 370px;
+}
+
+.checkitem {
+    display: block
+}
+
+.checkMargin {
+    margin-top: 6px;
+}
+
+.checkitem input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+.input-sm {
+    font-size: 13px;
+}
+
+.btn {
+    font-size: 13px !important;
+}

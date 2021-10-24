@@ -1,0 +1,26 @@
+﻿.dropDownSize {
+    width: 66%;
+    height: 37px;
+    display: inline;
+    padding: 0.1rem 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #6c757d !important;
+    font-size: 13px !important;
+}
+
+.tile_count .tile_stats_count {
+    white-space: initial !important;
+}
+
+.table td, .table th {
+    padding: 0.25rem !important;
+}
+
+.right_col {
+    min-height: 990px !important;
+}
+
+.dashboard_graph p {
+    margin: 0 0 11px !important;
+}
