@@ -19,7 +19,7 @@ namespace NetworkSurveillanceSuite.Controllers
         {
             _logger = logger;
             _loginService = loginService ?? throw new ArgumentNullException(nameof(loginService));
-        }
+        } 
 
         public async Task<IActionResult> Index()
         { 
