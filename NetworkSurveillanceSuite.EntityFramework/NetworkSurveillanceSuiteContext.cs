@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NetworkSurveillanceSuite.Domain.Dtos.Request.Registration;
 using NetworkSurveillanceSuite.Domain.Models;
 using NetworkSurveillanceSuite.EntityFramework.Configuration;
 using System;
@@ -17,6 +18,10 @@ namespace NetworkSurveillanceSuite.EntityFramework
 
         public DbSet<OnlineLocalTable> OnlineLocalTables { get; set; }
 
+        public DbSet<UserRegistration> UserRegistrations { get; set; }
+
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.LogTo(message => Debug.WriteLine(message));
@@ -28,6 +33,8 @@ namespace NetworkSurveillanceSuite.EntityFramework
 
             //Test
             modelBuilder.ApplyConfiguration(new OnlineLocalTableConfiguration());
+
+            modelBuilder.ApplyConfiguration(new UserRegistrationConfiguration());
         }
     }
 }
